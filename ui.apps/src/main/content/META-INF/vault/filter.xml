@@ -3,6 +3,6 @@
     <filter root="/apps/sample">
         <exclude pattern="/apps/sample/install" />
     </filter>
-    <filter root="/apps/sling" />
-    <filter root="/etc/designs/sample"/>
+    <filter root="/etc/cloudsettings/default/contexthub/dnb"/>
+    <filter root="/etc/cloudsettings/default/contexthub/03-jsonp-store"/>
 </workspaceFilter>
