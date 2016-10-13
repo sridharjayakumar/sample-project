@@ -45,6 +45,8 @@
                             artifactId2;inline=true
                         </Embed-Dependency>
                         -->
+                        <!-- Support for javax.inject,version=[0.0,1) - Cannot be resolved issue -->
+                        <Import-Package>javax.inject;version=0.0.0,*</Import-Package>
                         <Sling-Model-Packages>
                             com.adobe.poc.sample.core
                         </Sling-Model-Packages>
