@@ -1,4 +1,4 @@
-ContextHub.console.log(ContextHub.Shared.timestamp(), '[loading] contexthub.module.demo.04-renderer-with-fullscreen - renderer.renderer-with-fullscreen.js');
+ContextHub.console.log(ContextHub.Shared.timestamp(), '[loading] contexthub.module.dnb-renderer - renderer.renderer-with-fullscreen.js');
 
 (function($) {
     'use strict';
@@ -135,6 +135,6 @@ ContextHub.console.log(ContextHub.Shared.timestamp(), '[loading] contexthub.modu
     };
 
     /* register module renderer */
-    ContextHub.UI.ModuleRenderer('demo.04-renderer-with-fullscreen', new TestModule());
+    ContextHub.UI.ModuleRenderer('dnb-renderer', new TestModule());
 
 }(ContextHubJQ));

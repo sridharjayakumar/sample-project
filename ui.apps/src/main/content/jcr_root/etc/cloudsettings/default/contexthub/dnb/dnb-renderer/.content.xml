@@ -4,4 +4,4 @@
     jcr:title="Example 04 - renderer with popover and fullscreen"
     sling:resourceType="/libs/granite/contexthub/cloudsettings/components/baseuimodule"
     enabled="{Boolean}true"
-    moduleType="demo.04-renderer-with-fullscreen"/>
+    moduleType="dnb-renderer"/>
