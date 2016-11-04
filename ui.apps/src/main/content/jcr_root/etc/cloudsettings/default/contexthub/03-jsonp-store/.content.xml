@@ -5,4 +5,4 @@
     sling:resourceType="/libs/granite/contexthub/cloudsettings/components/basestore"
     enabled="{Boolean}true"
     required="{Boolean}true"
-    storeType="demo.03-jsonp-store"/>
+    storeType="dnb-jsonp-store"/>

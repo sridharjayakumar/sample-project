@@ -17,16 +17,16 @@ ContextHub.console.log(ContextHub.Shared.timestamp(), '[loading] contexthub.modu
     /* renderer default config */
     TestModule.prototype.defaultConfig = {
         /* module icon */
-        icon: 'coral-Icon--history',
+        icon: 'coral-Icon--data',
 
         /* module title */
-        title: 'Renderer With Fullscreen',
+        title: 'DNB Renderer',
 
         /* module is clickable */
         clickable: true,
 
         /* indicates whether fullscreen mode is available */
-        fullscreen: true,
+        fullscreen: false,
 
         /* where is data stored? */
         list: '/03-jsonp-store',
@@ -54,8 +54,8 @@ ContextHub.console.log(ContextHub.Shared.timestamp(), '[loading] contexthub.modu
 
         /* module template */
         template:
-            '<p>{{i18n "With Fullscreen"}}</p>' +
-            '<p>{{myStore.title}}'
+            '<p>{{i18n "DNB Data"}}</p>' +
+            '<p>{{myStore.lat}}'
     };
 
     TestModule.prototype.onFullscreenClicked = function(module, event, variant) {

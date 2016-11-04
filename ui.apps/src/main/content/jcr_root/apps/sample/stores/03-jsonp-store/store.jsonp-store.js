@@ -1,4 +1,4 @@
-ContextHub.console.log(ContextHub.Shared.timestamp(), '[loading] contexthub.store.demo.03-jsonp-store - store.jsonp-store.js');
+ContextHub.console.log(ContextHub.Shared.timestamp(), '[loading] contexthub.store.dnb-jsonp-store - store.jsonp-store.js');
 
 (function($) {
     'use strict';
@@ -115,6 +115,6 @@ ContextHub.console.log(ContextHub.Shared.timestamp(), '[loading] contexthub.stor
     };
 
     /* register store candidate */
-    ContextHub.Utils.storeCandidates.registerStoreCandidate(TestStore, 'demo.03-jsonp-store', 0);
+    ContextHub.Utils.storeCandidates.registerStoreCandidate(TestStore, 'dnb-jsonp-store', 0);
 
 }(ContextHubJQ));
