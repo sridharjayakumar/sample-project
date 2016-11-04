@@ -4,5 +4,5 @@
         <exclude pattern="/apps/sample/install" />
     </filter>
     <filter root="/etc/cloudsettings/default/contexthub/dnb"/>
-    <filter root="/etc/cloudsettings/default/contexthub/03-jsonp-store"/>
+    <filter root="/etc/cloudsettings/default/contexthub/dnb-jsonp-store"/>
 </workspaceFilter>

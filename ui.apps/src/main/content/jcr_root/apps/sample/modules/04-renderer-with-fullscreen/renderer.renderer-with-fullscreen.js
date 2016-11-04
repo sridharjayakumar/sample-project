@@ -29,14 +29,14 @@ ContextHub.console.log(ContextHub.Shared.timestamp(), '[loading] contexthub.modu
         fullscreen: false,
 
         /* where is data stored? */
-        list: '/03-jsonp-store',
+        list: '/dnb-jsonp-store',
 
         /* indicates that items should be editable */
         listType: 'input',
 
         /* what can be edited? */
         editable: {
-            key: '/03-jsonp-store',
+            key: '/dnb-jsonp-store',
 
             /* list of disabled properties */
             disabled: [
@@ -49,7 +49,7 @@ ContextHub.console.log(ContextHub.Shared.timestamp(), '[loading] contexthub.modu
 
         /* store mappings */
         storeMapping: {
-            myStore: '03-jsonp-store'
+            myStore: 'dnb-jsonp-store'
         },
 
         /* module template */
