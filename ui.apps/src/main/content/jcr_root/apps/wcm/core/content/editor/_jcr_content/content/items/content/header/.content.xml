@@ -11,14 +11,10 @@
                                 <clicktale
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="granite/ui/components/foundation/button"
-                                    class="js-editor-PageInfo-closePopover editor-PageInfo-action launch-tour"
+                                    class="js-editor-PageInfo-closePopover editor-PageInfo-action"
                                     minimal="{Boolean}true"
                                     text="Heatmap"
-                                    title="Heatmap">
-                                    <layoutConfig
-                                        jcr:primaryType="nt:unstructured"
-                                        interactive="{Boolean}true"/>
-                                </clicktale>
+                                    title="Heatmap"/>
                             </items>
                         </list>
                     </items>

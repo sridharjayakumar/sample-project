@@ -3,5 +3,5 @@
     <filter root="/apps/sample">
         <exclude pattern="/apps/sample/install" />
     </filter>
-    <filter root="/apps/wcm" />
+    <filter root="/apps/wcm/core" />
 </workspaceFilter>
