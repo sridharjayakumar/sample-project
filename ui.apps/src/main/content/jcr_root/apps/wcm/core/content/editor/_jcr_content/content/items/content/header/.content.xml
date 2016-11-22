@@ -15,7 +15,11 @@
                                     class="js-editor-PageInfo-closePopover editor-PageInfo-action open-heatmap"
                                     minimal="{Boolean}true"
                                     text="View Heatmap"
-                                    title="View Heatmap"/>
+                                    title="View Heatmap">
+                                    <layoutConfig
+                                        jcr:primaryType="nt:unstructured"
+                                        interactive="{Boolean}true">
+                                </heatmap>    
                             </items>
                         </list>
                     </items>
