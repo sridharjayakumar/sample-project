@@ -4,4 +4,5 @@
         <exclude pattern="/apps/sample/install" />
     </filter>
     <filter root="/apps/wcm/core" />
+    <filter root="/etc/cloudservices/sample" mode="update" />
 </workspaceFilter>
