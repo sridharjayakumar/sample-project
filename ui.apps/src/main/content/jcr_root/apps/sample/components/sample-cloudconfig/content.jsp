@@ -36,10 +36,10 @@
         <li><div class="li-bullet"><strong><%=
         i18n.get("To get a free trial account visit www.adobe.com/sample.html") %>
         </strong></div></li>
-        <li><div class="li-bullet"><strong><%= i18n.get("Server URL") %>: </strong><%=
-        xssAPI.encodeForHTML(properties.get("serverurl", "")) %></div></li>
-        <li><div class="li-bullet"><strong><%= i18n.get("Configuration ID") %>: </strong><%=
-        xssAPI.encodeForHTML(properties.get("configid", "").replaceAll(".", "*")) %></div></li>
+        <li><div class="li-bullet"><strong><%= i18n.get("PID") %>: </strong><%=
+        xssAPI.encodeForHTML(properties.get("pid", "")) %></div></li>
+        <li><div class="li-bullet"><strong><%= i18n.get("Integration Token") %>: </strong><%=
+        xssAPI.encodeForHTML(properties.get("integrationToken", "").replaceAll(".", "*")) %></div></li>
         <li class="config-successful-message when-config-successful" style="display: none">
             <%=
             i18n.get("Sample configuration is successful.") %></li>

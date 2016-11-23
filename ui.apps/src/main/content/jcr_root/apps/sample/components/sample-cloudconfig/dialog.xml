@@ -10,9 +10,9 @@
             <items jcr:primaryType="cq:WidgetCollection">
                 <tmsserverurl
                         jcr:primaryType="cq:Widget"
-                        fieldLabel="Server URL"
-                        fieldDescription="Use the API/Endpoint URL here"
-                        name="./serverurl"
+                        fieldLabel="PID"
+                        fieldDescription="Use the PID here"
+                        name="./pid"
                         xtype="textfield">
                     <listeners
                             jcr:primaryType="nt:unstructured"
@@ -20,9 +20,9 @@
                 </tmsserverurl>
                 <tmsconfigid
                         jcr:primaryType="cq:Widget"
-                        fieldLabel="Service ID"
-                        fieldDescription="Use a customer specific Configuration/Service ID here"
-                        name="./configid"
+                        fieldLabel="Integration Token"
+                        fieldDescription="Use a customer specific Integration Token here"
+                        name="./integrationToken"
                         xtype="textfield">
                     <listeners
                             jcr:primaryType="nt:unstructured"

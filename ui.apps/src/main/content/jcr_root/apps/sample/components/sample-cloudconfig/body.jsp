@@ -81,8 +81,8 @@
 </div>
 <cq:include script="content.jsp" />
     <%
-        if (properties.get("serverurl", "").isEmpty()
-                || properties.get("configid", "").isEmpty()) {
+        if (properties.get("integrationToken", "").isEmpty()
+                || properties.get("pid", "").isEmpty()) {
     %>
     <cq:include script="opendialog.jsp" />
     <%
