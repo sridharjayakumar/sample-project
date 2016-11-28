@@ -13,7 +13,7 @@
             'type': 'get',
             'url': '/bin/sample/properties',
             'data': {
-                "path": "/content/geometrixx/en"
+                "path": path
             },
             'dataType': "json",
             'success': function(data) {
@@ -21,7 +21,7 @@
             }
         });
         
-        var url = "http://subs.app.clicktale.com/IntegrationEntry.ashx?Type=OverlayReport&ReportType=ClickHeatmap&PID=";
+        var url = "http://www.dummyurl.com?Type=OverlayReport&ReportType=ClickHeatmap&PID=";
         url += json.pid;
         url += "&IntegrationToken=";
         url += json.integrationToken;

@@ -41,7 +41,7 @@ public class SampleConfigurationParserServlet extends SlingSafeMethodsServlet {
 
 		ResourceResolver resolver = request.getResourceResolver();
 		cfgMgr = resolver.adaptTo(ConfigurationManager.class);
-		Resource currentResource = resolver.getResource(path);
+		Resource currentResource = resolver.resolve(path);
 		InheritanceValueMap pageProperties = new HierarchyNodeInheritanceValueMap(currentResource);
 		getpidAndintegrationToken(pageProperties);
 
