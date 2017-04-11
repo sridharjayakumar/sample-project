@@ -1,7 +1,6 @@
 package com.adobe.poc.sample.core.servlets;
 
 import java.io.IOException;
-import java.util.Arrays;
 
 import org.apache.felix.scr.annotations.sling.SlingServlet;
 import org.apache.sling.api.SlingHttpServletRequest;
@@ -14,6 +13,8 @@ import org.apache.sling.commons.json.JSONObject;
 
 import com.day.cq.commons.inherit.HierarchyNodeInheritanceValueMap;
 import com.day.cq.commons.inherit.InheritanceValueMap;
+import com.day.cq.wcm.api.Page;
+import com.day.cq.wcm.api.PageManager;
 import com.day.cq.wcm.webservicesupport.Configuration;
 import com.day.cq.wcm.webservicesupport.ConfigurationManager;
 
@@ -42,7 +43,9 @@ public class SampleConfigurationParserServlet extends SlingSafeMethodsServlet {
 		ResourceResolver resolver = request.getResourceResolver();
 		cfgMgr = resolver.adaptTo(ConfigurationManager.class);
 		Resource currentResource = resolver.resolve(path);
-		InheritanceValueMap pageProperties = new HierarchyNodeInheritanceValueMap(currentResource);
+		PageManager pageManager = resolver.adaptTo(PageManager.class);
+		Page currentPage = pageManager.getContainingPage(currentResource);
+		InheritanceValueMap pageProperties = new HierarchyNodeInheritanceValueMap(currentPage.getContentResource());
 		getpidAndintegrationToken(pageProperties);
 
 		try {
